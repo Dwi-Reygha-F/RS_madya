@@ -1,5 +1,5 @@
 <?php 
-$koneksi = mysqli_connect("localhost","root","","db_rsmadya2");
+$koneksi = mysqli_connect("localhost","root","","db_rsmadya");
  
 // Check connection
 if (mysqli_connect_errno()){
