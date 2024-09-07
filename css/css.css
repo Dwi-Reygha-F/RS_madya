@@ -1,0 +1,312 @@
+.search-container {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px; /* Extra padding to make space for the buttons */
+}
+
+.search-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.search-item label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    text-align-last: center;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-reset {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.button-search {
+    background-color: #303ac9;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.button-search:hover {
+    background-color: #89b4ce;
+}
+
+.footer {
+    background-color: #003264;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.footer .map-container iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.footer-right {
+    color: #ffffff;
+}
+
+.footer-right .contact-info li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.footer-right .contact-info li i {
+    color: #17a2b8;
+    margin-right: 10px;
+}
+
+.footer .social-icons a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #17a2b8;
+}
+
+.footer-bottom {
+    background-color: #011d3a;
+    color: #adb5bd;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.separator {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+/* layanan unggulan */
+
+ .containerrr {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .about-section {
+            padding: 60px 0;
+        }
+
+        .about-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #404be9;
+            margin-bottom: 20px;
+        }
+
+        .about-subtitle {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .about-content {
+            margin-bottom: 30px;
+        }
+
+        .about-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background: #5560fc;
+            color: white;
+            font-weight: bold;
+        }
+
+        .modal-content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .services-section {
+            padding: 60px 0;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #404be9;
+            margin-bottom: 20px;
+        }
+
+        .section-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.333% - 20px);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-icon {
+            font-size: 50px;
+            color: #404be9;
+            margin-bottom: 20px;
+        }
+
+        .service-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .service-description {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .divider {
+            height: 4px;
+            background-color: #5560fc;
+            width: 50px;
+            margin: 40px auto;
+        }
+
+        @media (max-width: 768px) {
+            .service-item {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .service-item {
+                width: 100%;
+            }
+        }
+
+ /* Style for the home section */
+        #home {
+            min-height: 100vh;
+            background-image: url('images/gedung.png');
+            background-size: cover;
+            background-position: top;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Apply blur and dark overlay effect */
+        #home::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            backdrop-filter: blur(5px); /* Blur effect */
+            z-index: 0;
+        }
+        
+        #contact {
+            background-color: #e9ecef;
+        }
+
+        .staff-section .staff-member {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .staff-section .staff-member img {
+            border-radius: 50%;
+            margin-bottom: 15px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .staff-section .staff-member h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .staff-section .staff-member p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+
+     
